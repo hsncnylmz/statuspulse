@@ -1,0 +1,43 @@
+name: Daily Status Check
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run checks
+        run: npm run run
+
+      - name: Commit updated status files
+        env:
+          STATUSPULSE_GIT_NAME: ${{ vars.STATUSPULSE_GIT_NAME }}
+          STATUSPULSE_GIT_EMAIL: ${{ vars.STATUSPULSE_GIT_EMAIL }}
+        run: |
+          git config user.name "${STATUSPULSE_GIT_NAME:-StatusPulse Bot}"
+          git config user.email "${STATUSPULSE_GIT_EMAIL:-replace-with-your-email@example.com}"
+          git add STATUS.md data/status.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: daily status update"
+          git push

@@ -1,0 +1,22 @@
+{
+  "name": "statuspulse",
+  "version": "1.0.0",
+  "description": "Daily URL health checks with markdown status output.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "run": "tsx src/run.ts"
+  },
+  "keywords": [
+    "status",
+    "monitoring",
+    "uptime",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
