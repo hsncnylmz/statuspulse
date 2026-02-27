@@ -25,5 +25,32 @@
         "checkedAt": "2026-02-27T20:08:27.081Z"
       }
     ]
+  },
+  {
+    "timestamp": "2026-02-27T20:15:46.498Z",
+    "timeoutMs": 8000,
+    "sslTimeoutMs": 6000,
+    "results": [
+      {
+        "name": "Replace Me",
+        "url": "https://replace-with-your-url.example",
+        "status": null,
+        "latencyMs": null,
+        "sslDaysLeft": null,
+        "ok": false,
+        "error": "HTTP request failed: fetch failed",
+        "checkedAt": "2026-02-27T20:15:46.498Z"
+      },
+      {
+        "name": "Example",
+        "url": "https://example.com",
+        "status": 200,
+        "latencyMs": 126,
+        "sslDaysLeft": 76,
+        "ok": true,
+        "error": null,
+        "checkedAt": "2026-02-27T20:15:46.498Z"
+      }
+    ]
   }
 ]
