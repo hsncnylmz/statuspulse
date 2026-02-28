@@ -52,5 +52,59 @@
         "checkedAt": "2026-02-27T20:15:46.498Z"
       }
     ]
+  },
+  {
+    "timestamp": "2026-02-28T00:34:14.349Z",
+    "timeoutMs": 8000,
+    "sslTimeoutMs": 6000,
+    "results": [
+      {
+        "name": "Replace Me",
+        "url": "https://replace-with-your-url.example",
+        "status": null,
+        "latencyMs": null,
+        "sslDaysLeft": null,
+        "ok": false,
+        "error": "HTTP request failed: fetch failed",
+        "checkedAt": "2026-02-28T00:34:14.349Z"
+      },
+      {
+        "name": "Example",
+        "url": "https://example.com",
+        "status": 200,
+        "latencyMs": 113,
+        "sslDaysLeft": 76,
+        "ok": true,
+        "error": null,
+        "checkedAt": "2026-02-28T00:34:14.349Z"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-02-28T00:35:34.260Z",
+    "timeoutMs": 8000,
+    "sslTimeoutMs": 6000,
+    "results": [
+      {
+        "name": "Replace Me",
+        "url": "https://replace-with-your-url.example",
+        "status": null,
+        "latencyMs": null,
+        "sslDaysLeft": null,
+        "ok": false,
+        "error": "HTTP request failed: fetch failed",
+        "checkedAt": "2026-02-28T00:35:34.260Z"
+      },
+      {
+        "name": "Example",
+        "url": "https://example.com",
+        "status": 200,
+        "latencyMs": 110,
+        "sslDaysLeft": 76,
+        "ok": true,
+        "error": null,
+        "checkedAt": "2026-02-28T00:35:34.260Z"
+      }
+    ]
   }
 ]
