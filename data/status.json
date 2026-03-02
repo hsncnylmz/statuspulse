@@ -108,11 +108,16 @@
     ]
   },
   {
+<<<<<<< HEAD
     "timestamp": "2026-02-28T06:55:54.812Z",
+=======
+    "timestamp": "2026-03-02T23:13:51.632Z",
+>>>>>>> 8790705 (chore: daily update)
     "timeoutMs": 8000,
     "sslTimeoutMs": 6000,
     "results": [
       {
+<<<<<<< HEAD
         "name": "Example",
         "url": "https://example.com",
         "status": null,
@@ -123,6 +128,8 @@
         "checkedAt": "2026-02-28T06:55:54.812Z"
       },
       {
+=======
+>>>>>>> 8790705 (chore: daily update)
         "name": "Replace Me",
         "url": "https://replace-with-your-url.example",
         "status": null,
@@ -130,6 +137,7 @@
         "sslDaysLeft": null,
         "ok": false,
         "error": "HTTP request failed: fetch failed",
+<<<<<<< HEAD
         "checkedAt": "2026-02-28T06:55:54.812Z"
       }
     ]
@@ -185,6 +193,19 @@
         "ok": false,
         "error": "HTTP request failed: fetch failed",
         "checkedAt": "2026-03-02T07:15:05.291Z"
+=======
+        "checkedAt": "2026-03-02T23:13:51.632Z"
+      },
+      {
+        "name": "Noirdoc",
+        "url": "https://noirdoc.com",
+        "status": 200,
+        "latencyMs": 503,
+        "sslDaysLeft": 81,
+        "ok": true,
+        "error": null,
+        "checkedAt": "2026-03-02T23:13:51.632Z"
+>>>>>>> 8790705 (chore: daily update)
       }
     ]
   }
