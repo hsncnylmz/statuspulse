@@ -160,5 +160,32 @@
         "checkedAt": "2026-03-03T07:09:30.216Z"
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-04T07:04:54.534Z",
+    "timeoutMs": 8000,
+    "sslTimeoutMs": 6000,
+    "results": [
+      {
+        "name": "Replace Me",
+        "url": "https://replace-with-your-url.example",
+        "status": null,
+        "latencyMs": null,
+        "sslDaysLeft": null,
+        "ok": false,
+        "error": "HTTP request failed: fetch failed",
+        "checkedAt": "2026-03-04T07:04:54.534Z"
+      },
+      {
+        "name": "Noirdoc",
+        "url": "https://noirdoc.com",
+        "status": 200,
+        "latencyMs": 872,
+        "sslDaysLeft": 79,
+        "ok": true,
+        "error": null,
+        "checkedAt": "2026-03-04T07:04:54.534Z"
+      }
+    ]
   }
 ]
