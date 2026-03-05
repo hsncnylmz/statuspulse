@@ -1,7 +1,11 @@
 [
   {
     "name": "Noirdoc",
+<<<<<<< HEAD
     "url": "https://noirdoc.com/tr"
+=======
+    "url": "https://noirdoc.com"
+>>>>>>> 774330c1b152a9bd157f5dd06768769738849281
   },
   {
     "name": "Replace Me",
